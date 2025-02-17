@@ -1,4 +1,4 @@
-# Projektowanie_systemow_informatycznych
+# Projektowanie systemow informatycznych
 
 ## KTO
 
