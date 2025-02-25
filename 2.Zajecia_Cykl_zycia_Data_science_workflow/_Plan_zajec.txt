@@ -1,0 +1,15 @@
+
+1. Przeczytaj ze zrozumieniem Cykl_zycia_systemu informatycznego
+
+a) Otwórz swój plik "Notatki z zajęć", napisz "Zajęcia 2. Cykl_zycia_systemu informatycznego" i odpowiedz na pytania:
+
+1. Napisz z pamięci (nie patrząc na materiały) wszystkie etapy Cyklu życia systemu informatycznego.
+Następnie wróć do materiałów i sprawdź, czego brakuje i dopisz to.
+2. Napisz 3 zalety (wg Ciebie) poznania etapów Cyklu życia systemu informatycznego
+3. Czy cykl życia procesu analizy danych w data science jest podobny do etapów Cyklu życia systemu informatycznego? Czy w obu cyklach życia kolejność etapów jest (ogólnie) analogiczna?
+
+
+2. Otwórz plik Obszary tematyczne związane z PSI i przeczytaj slajdy ze zrozumieniem.
+
+3. Otwórz folder Zadanie i wykonaj polecenia.
+
