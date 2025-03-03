@@ -1,0 +1,13 @@
+
+1. Przeczytaj ze zrozumieniem Gromadzenie i analiza wymagań
+
+a) Otwórz swój plik "Notatki z zajęć", napisz "Zajęcia 3. Gromadzenie i analiza wymagań":
+napisz 2 wymagania funkcjonalne i 2 niefunkcjonalne dla systemu text mining w języku R, który analizuje dane tekstowe i tworzy chmurę słów.
+// 1pkt
+
+2. Otwórz folder z rozwiązaniami zad3 z poprzednich zajęć. Porównaj użycie kodu z pakietem qdap i z pakietem tm - dyskusja na zajęciach. // 1pkt
+
+2. Otwórz folder Zadanie. Przeczytaj Podstawy_text_mining_Czestosci_slow_pl, a następnie przeczytaj Rozwiązanie. 
+Jakie są kroki Text Mining w podejściu worka słów? (dyskusja na zajęciach). Wykonaj kod i zapisz rezultat wykonanego kodu w formacie raportu html - niezbędna instalacja pakietu rmarkdown. Raport wykonuje się z poziomu menu: File // Compile report  (pod warunkiem, że dobrze ustawione jest Working Directory). // 2pkt
+
+
