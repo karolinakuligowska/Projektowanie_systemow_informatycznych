@@ -1,0 +1,20 @@
+
+
+1. Otwórz folder Slowniki_do_analizy_sentymentu. Wykonaj kod dotyczący słowników, porównaj strukturę słowników oraz zalety i wady - dyskusja na zajęciach. // 2pkt
+
+
+2. Otwórz folder Analiza sentymentu_Biden. Wykonaj kod osobno dla każdego pliku przemówienia Bidena i zapisz rezultat wykonanego kodu w formacie raportu html.// 1pkt
+
+
+3. cd. Notatki
+a) Otwórz swój plik "Notatki z zajęć", napisz "Zajęcia 4. Gromadzenie i analiza wymagań".
+
+Dla systemu text mining w języku R, który analizuje dane tekstowe i tworzy analizę sentymentu przy użyciu różnych słowników sentymentu zgromadzono 4 wymagania - przyporządkuj które z nich to wymagania funkcjonalne, a które z nich to wymagania niefunkcjonalne:
+- Proces analizy sentymentu powinien działać w czasie krótszym niż 5 sekund dla tekstu do 10 000 słów.
+- System ma umożliwiać analizę sentymentu przy użyciu różnych słowników sentymentu (np. NRC, Bing, Loughran, Afinn).
+- System ma prezentować wyniki analizy sentymentu w formie wykresów, ilustrując liczbę słów wg poszczególnych sentymentów.
+- Kod powinien być poprawnie napisany, a komentarze w kodzie powinny wyjaśniać najważniejsze operacje, aby ułatwić jego konserwację i ewentualną modyfikację.
+// 1pkt
+
+
+
