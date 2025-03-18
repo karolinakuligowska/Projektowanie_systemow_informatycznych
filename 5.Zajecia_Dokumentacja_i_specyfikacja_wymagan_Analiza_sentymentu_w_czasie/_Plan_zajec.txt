@@ -1,0 +1,19 @@
+
+
+1. Otwórz folder Analiza sentymentu w czasie. Porównaj wyniki analizy (raporty html) dla przemówień Bidena 2021, 2024 i Trumpa 2025 - dyskusja na zajęciach. // 2pkt
+
+
+2. Wykonaj kod osobno dla każdego pliku przemówienia (2x Biden i 1x Trump) i zapisz rezultaty wykonanego kodu w formacie 3 raportów html.// 1pkt
+
+
+3. cd. Notatki
+a) Otwórz swój plik "Notatki z zajęć", napisz "Zajęcia 5. Dokumentacja i specyfikacja wymagań".
+
+b) Przeczytaj plik Dokumentacja i specyfikacja wymagan.
+
+c) Otwórz folder Dokumentacja_SRS.
+Dla systemu text mining w języku R, który przeprowadza analizę sentymentu w czasie, wykonano Dokumentację Specyfikacji Wymagań (SRS) <= przeczytaj ten plik.
+
+Na podstawie dokumentacji SRS dotyczącej systemu analizy sentymentu, krótko odpowiedz na pytanie w Notatkach:
+Jakie są korzyści z dobrze przygotowanej dokumentacji i specyfikacji wymagań - wypisz min. 1 korzyść dla każdego (zidentyfikowanego przez Ciebie) interesariusza systemu.
+// 1pkt
