@@ -1,0 +1,25 @@
+
+1. Otwórz folder Text_mining_BoW__Pełna_analiza.
+Porównaj rezultaty kodu w raportach html 6.1, 6.2, 6.3, 6.4 - dyskusja na zajęciach. // 2pkt
+
+
+2. Wykonaj kod skryptu 6.5 jako raport html (w jednym folderze powinny być pliki .csv, .txt, .R)// 1pkt
+
+
+3. cd. Notatki
+a) Otwórz swój plik "Notatki z zajęć", napisz "Zajęcia 6. Dokumentacja i specyfikacja wymagań".
+
+b) Otwórz folder Dokumentacja_SRS__Pełna_analiza.
+Dla systemu text mining w języku R, który przeprowadza pełną analizę jednego pliku, wykonano Dokumentację Specyfikacji Wymagań (SRS) <= przeczytaj ten plik.
+
+c) Na podstawie dokumentacji SRS, która na końcu zawiera scenariusze użytkownika (user stories), napisz w Notatkach:
+Scenariusz 4. Wczesne wykrywanie ryzyk reputacyjnych na podstawie analizy sentymentu opinii klientów z formularzy kontaktowych
+Jako: Analityk danych w dziale Customer Experience
+Chcę: ....
+Aby: .....
+Kryteria akceptacji: ....
+
+// całe zadanie 1pkt
+
+
+
