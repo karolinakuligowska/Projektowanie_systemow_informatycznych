@@ -1,0 +1,1 @@
+Zajęcia 6 Dokumentacja_i_specyfikacja_wymagan oraz Stemming
