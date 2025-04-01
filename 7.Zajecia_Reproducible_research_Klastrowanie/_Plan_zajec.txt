@@ -1,0 +1,42 @@
+
+1. Dyskusja na zajęciach:  // 2pkt
+a)
+Czym jest uczenie maszynowe (machine learning)?
+Jakie są główne kategorie algorytmów uczenia maszynowego?
+Jakie są najpopularniejsze zastosowania uczenia maszynowego?
+Zobacz: 
+https://elektronikab2b.pl/biznes/53039-czym-jest-uczenie-maszynowe-i-jak-mozna-je-wykorzystac
+
+b)
+Czy dokument tekstowy może być reprezentowany przez wektor w przestrzeni wektorowej?
+Czym jest klastrowanie (analiza skupień)?
+Jakie są kroki klastrowania dokumentów tekstowych?
+
+Zobacz głównie rysunki w:
+https://spotintelligence.com/2023/09/07/vector-space-model/amp/
+https://shabal.in/visuals/kmeans/5.html
+https://www.researchgate.net/publication/324794105_Document_Clustering_Based_On_Text_Mining_K-Means_Algorithm_Using_Euclidean_Distance_Similarity
+
+c) Na końcu:
+Otwórz folder Text_mining_BoW__Przestrzen_wektorowa.
+Zobacz rezultaty kodu klastrowania w raporcie html.
+
+
+
+2. Przypomnij sobie skrypt 6.5 (z poprzednich zajęć 6) - wykonany na jego bazie raport html miał layout ze skrolowalnym TOC (table of content).
+Otwórz folder TOC_layouty i zobacz inne layouty raportu html (oraz jak są one odzwierciedlone w skrypcie R).
+Wybierz taki layout, który najbardziej Ci odpowiada i wykonaj kod skryptu 7 jako raport html z TOC (przypomnienie: w jednym folderze powinny być pliki .csv, .txt, .R) // 1pkt
+
+
+
+3. cd. Notatki
+a) Otwórz swój plik "Notatki z zajęć", napisz "Zajęcia 7. Reproducible research".
+Przeczytaj plik Reproducible_research.pdf - fragment dotyczący tego tematu.
+
+Napisz w Notatkach odpowiedź na pytanie:
+Jakie elementy dokumentacji powinny znaleźć się w projekcie, aby umożliwić jego odtworzenie przez inną osobę?
+
+// całe zadanie 1pkt
+
+
+
