@@ -21,7 +21,6 @@
 #' ---
 
 
-
 knitr::opts_chunk$set(
   message = FALSE,
   warning = FALSE
@@ -194,9 +193,9 @@ sentiment_review %>%
 # Zliczanie, które słowa są najczęstsze
 # dla danego sentymentu
 sentiment_review %>%
-  count(word, sentiment) %>%
-  arrange(desc(n))
-
+  group_by(sentiment) %>%
+  arrange(desc(freq)) %>%
+  ungroup()
 
 # Filtrowanie analizy sentymentu
 # i pozostawienie tylko słów
@@ -207,16 +206,16 @@ sentiment_review2 <- sentiment_review %>%
 
 
 word_counts <- sentiment_review2 %>%
-  count(word, sentiment) %>%
   group_by(sentiment) %>%
-  top_n(10, n) %>%
+  top_n(20, freq) %>%
   ungroup() %>%
+  arrange(desc(freq), word) %>%
   mutate(
-    word2 = fct_reorder(word, n)
+    word2 = factor(word, levels = rev(unique(word)))
   )
 
 # Wizualizacja sentymentu
-ggplot(word_counts[1:30,], aes(x=word2, y=n, fill=sentiment)) + 
+ggplot(word_counts[1:30,], aes(x=word2, y=freq, fill=sentiment)) + 
   geom_col(show.legend=FALSE) +
   facet_wrap(~sentiment, scales="free") +
   coord_flip() +
@@ -241,9 +240,9 @@ sentiment_review_nrc %>%
 # Zliczanie, które słowa są najczęstsze
 # dla danego sentymentu
 sentiment_review_nrc %>%
-  count(word, sentiment) %>%
-  arrange(desc(n))
-
+  group_by(sentiment) %>%
+  arrange(desc(freq)) %>%
+  ungroup()
 
 # Filtrowanie analizy sentymentu
 # i pozostawienie tylko słów
@@ -254,16 +253,16 @@ sentiment_review_nrc2 <- sentiment_review_nrc %>%
 
 
 word_counts_nrc2 <- sentiment_review_nrc2 %>%
-  count(word, sentiment) %>%
   group_by(sentiment) %>%
-  top_n(10, n) %>%
+  top_n(20, freq) %>%
   ungroup() %>%
+  arrange(desc(freq), word) %>%
   mutate(
-    word2 = fct_reorder(word, n)
+    word2 = factor(word, levels = rev(unique(word)))
   )
 
 # Wizualizacja sentymentu
-ggplot(word_counts_nrc2[1:30,], aes(x=word2, y=n, fill=sentiment)) + 
+ggplot(word_counts_nrc2[1:30,], aes(x=word2, y=freq, fill=sentiment)) + 
   geom_col(show.legend=FALSE) +
   facet_wrap(~sentiment, scales="free") +
   coord_flip() +
@@ -287,9 +286,9 @@ sentiment_review_bing %>%
 # Zliczanie, które słowa są najczęstsze
 # dla danego sentymentu
 sentiment_review_bing %>%
-  count(word, sentiment) %>%
-  arrange(desc(n))
-
+  group_by(sentiment) %>%
+  arrange(desc(freq)) %>%
+  ungroup()
 
 # Filtrowanie analizy sentymentu
 # i pozostawienie tylko słów
@@ -300,16 +299,16 @@ sentiment_review_bing2 <- sentiment_review_bing %>%
 
 
 word_counts_bing2 <- sentiment_review_bing2 %>%
-  count(word, sentiment) %>%
   group_by(sentiment) %>%
-  top_n(10, n) %>%
+  top_n(20, freq) %>%
   ungroup() %>%
+  arrange(desc(freq), word) %>%
   mutate(
-    word2 = fct_reorder(word, n)
+    word2 = factor(word, levels = rev(unique(word)))
   )
 
 # Wizualizacja sentymentu
-ggplot(word_counts_bing2[1:30,], aes(x=word2, y=n, fill=sentiment)) + 
+ggplot(word_counts_bing2[1:30,], aes(x=word2, y=freq, fill=sentiment)) + 
   geom_col(show.legend=FALSE) +
   facet_wrap(~sentiment, scales="free") +
   coord_flip() +
@@ -334,9 +333,9 @@ sentiment_review_afinn %>%
 # Zliczanie, które słowa są najczęstsze
 # dla danego sentymentu
 sentiment_review_afinn %>%
-  count(word, value) %>%
-  arrange(desc(n))
-
+  group_by(value) %>%
+  arrange(desc(freq)) %>%
+  ungroup()
 
 # Silnie pozytywne lub silnie negatywne słowa:
 # filtrowanie analizy sentymentu
@@ -347,16 +346,16 @@ sentiment_review_afinn3 <- sentiment_review_afinn %>%
 
 
 word_counts_afinn3 <- sentiment_review_afinn3 %>%
-  count(word, value) %>%
   group_by(value) %>%
-  top_n(10, n) %>%
+  top_n(20, freq) %>%
   ungroup() %>%
+  arrange(desc(freq), word) %>%
   mutate(
-    word2 = fct_reorder(word, n)
+    word2 = factor(word, levels = rev(unique(word)))
   )
 
 # Wizualizacja sentymentu
-ggplot(word_counts_afinn3, aes(x=word2, y=n, fill=value)) + 
+ggplot(word_counts_afinn3[1:30,], aes(x=word2, y=freq, fill=value)) + 
   geom_col(show.legend=FALSE) +
   facet_wrap(~value, scales="free") +
   coord_flip() +
