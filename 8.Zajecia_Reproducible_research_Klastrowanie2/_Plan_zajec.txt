@@ -1,0 +1,80 @@
+
+1. Dyskusja na zajęciach:  // 2pkt
+
+a) Czy rozumiesz działanie poszczególnych linijek kodu w skrypcie z poprzednich zajęć (skrypt 7 Klastrowanie_kMeans)?
+ Czy rozumiesz (tak ogólnie) jak przebiega i na czym polega algorytm klastrowania?
+
+
+Zobacz na wizualizację str. 7, Fig. 3. Illustration of K-means Clustering:
+https://www.researchgate.net/publication/371115662_An_overview_of_clustering_methods_with_guidelines_for_application_in_mental_health_research
+
+
+Uwaga dodatkowa:
+W algorytmie k-średnich losowo wybierane są początkowe centra klastrów. Od tego, jakie punkty zostaną wybrane na początku, może zależeć jakość końcowego rozwiązania (czyli minimalizacja sumy odległości wewnątrz klastrów). Aby zwiększyć szanse znalezienia najlepszego podziału, funkcja kmeans() może uruchomić algorytm wielokrotnie (parametr nstart) i zachować najlepszy wynik – ten z najmniejszą sumą kwadratów odległości. Przykładowo:
+
+k <- 3 # ustaw liczbę klastrów
+# oryginalny kod:    klastrowanie <- kmeans(dtm_m, centers = k)
+# nowy kod: 
+klastrowanie <- kmeans(dtm_m, centers = k, nstart = 25)
+
+Funkcja algorytmu kmeans uruchomi się 25 razy z różnymi punktami początkowymi (k punktów) i wybierze ten wynik, który da najlepszy podział (tj. da najmniejszy błąd unikając lokalnych minimów).
+
+
+# Dobór liczby klastrów
+# Metoda sylwetki (silhouette)
+- mierzy spójność punktu z jego własnym klastrem w porównaniu z innymi.
+- oblicza średni współczynnik silhouette dla różnych liczby klastrów.
+- najlepsza liczba klastrów to ta, przy której wartość silhouette jest najwyższa (czyli klastry są dobrze oddzielone i spójne).
+Silhouette jest zazwyczaj dokładniejszą metodą, ale kosztowna obliczeniowo.
+
+# Metoda łokcia (elbow method)
+- bazuje na analizie całkowitej wariancji wewnątrzklastrowej (Within-Cluster Sum of Squares, WSS).
+- szuka się „łokcia” na wykresie, gdzie dalsze zwiększanie liczby klastrów nie powoduje już dużego spadku WSS.
+- prosta i szybka, ale często subiektywna w interpretacji.
+
+
+
+b) Czy potrafisz wykonać kod z poprzednich zajęć (skrypt 7 Klastrowanie_kMeans) na INNYM zbiorze dokumentów?
+
+Folder "textfolder2" zawiera 20 dokumentów. 
+Wykonaj:
+- Skopiuj z poprzednich zajęć skrypt 7
+- Pomiń stemming i  stemCompletion tzn. zakomentuj te fragmenty kodu (czas trwania stemCompletion ok.15min)
+- Uruchom kod na dokumentach z folderu "textfolder2" (najłatwiej usunąć cyfrę "2" z nazwy folderu, wtedy nie trzeba zmieniać kodu; pamiętaj o WD)
+
+Czy tematyka dokumentów jest podobna w zakresie jednego klastra oraz jest różna pomiędzy klastrami?
+
+
+c) Przeczytaj plik Reproducible_research.pdf - fragment dotyczący tematu Reproducible research.
+
+Na czym polega reproducible research? 
+Czy reproducible research to tylko domena nauki, czy ma znaczenie w projektach biznesowych?
+Jak wkomponować zasadę reproducibility w projekt systemu informatycznego od samego początku?
+
+=> Następnie zobacz repozytorium:
+https://github.com/Hubert-Magdziak/Reproducible-Research-Project-2024?tab=readme-ov-file
+
+
+
+2. Folder "textfolder3" zawiera 30 dokumentów, nie znasz ich treści, ani ich autorów. 
+Wykonaj:
+- Skopiuj z poprzednich zajęć skrypt 7 (Klastrowanie_kMeans) 
+- Pomiń stemming i  stemCompletion tzn. zakomentuj te fragmenty kodu (czas trwania stemCompletion ok.15min)
+- Uruchom kod na dokumentach z folderu "textfolder3" (najłatwiej usunąć cyfrę z nazwy folderu, wtedy nie trzeba zmieniać kodu; pamiętaj o WD)
+
+- Czy na podstawie wyników i otrzymanych klastrów możesz wnioskować o zawartości dokumentów?
+- Jakich ogólnie obszarów tematycznych dotyczą klastry oraz ile jest tych obszarów?
+
+Zapisz odpowiedzi w pliku "Notatki z zajęć" (napisz "Zajęcia 8. Reproducible research" i poniżej hasło: "Klastrowanie textfolder3") // 1pkt
+
+
+3. cd. Notatki
+a) Otwórz swój plik "Notatki z zajęć", napisz "Zajęcia 8. Reproducible research".
+
+Napisz w Notatkach (może być w punktach) pod hasłem "Narzędzia odtwarzalne":
+Jakie narzędzia wspierające podejście Reproducible research już stosujesz i używasz?
+
+// całe zadanie 1pkt
+
+
+

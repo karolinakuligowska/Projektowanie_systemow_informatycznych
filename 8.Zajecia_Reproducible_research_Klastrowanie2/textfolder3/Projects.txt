@@ -1,0 +1,50 @@
+Of all the problems which had been submitted to my friend, Mr. Sherlock Holmes, for consideration during the years of our friendship, there has been one that stands out for the sheer simplicity of its resolution.  I have (until now) been loath to disclose details of the case as I felt the resolution to be so trivial as to not merit mention.
+So why bring it up after all these years?
+Truth be told, I am increasingly of the mind that Holmes' diagnosis in the Case of the Failed Projects (as I have chosen to call this narrative), though absolutely correct, has been widely ignored. Indeed, the writings of LordStandish and others from the business press have convinced me that the real lesson from his diagnosis is yet to be learnt by those who really matter:  i.e. executives and managers.
+As Holmes might have said, this is symptomatic of a larger malaise: that of a widespread ignorance of elementary logic and causality.
+A final word before I get into the story. As most readers know, my friend is better known for his work on criminal cases. The present case, though far more mundane in its details, is in my opinion perhaps his most important because of its remarkable implications. The story has, I believe, been told at least once before but, like all such narratives, its effect is much less striking when set forth en bloc in a single half-column of print than when the facts slowly emerge before one's own eyes.
+So, without further ado, then, here is the tale 
+—
+The narrative
+Holmes was going through a lean patch that summer, and it seemed that the only cases that came his way had to do with pilfered pets or suspicious spouses.   Such work, if one can call it that, held little allure for him.
+He was fed up to the point that he was contemplating a foray into management consulting.  Indeed, he was certain he could do as well, if not better than the likes of Baron McKinsey and Lord Gartner (who seemed to be doing well enough). Moreover his success with the case of the terminated PMO  had given him some credibility in management circles.   As it turned out, it was that very case that led Mr. Bryant (not his real name) to invite us to his office that April morning.
+As you may have surmised, Holmes accepted the invitation with alacrity.
+—
+The basic facts of the issue, as related by Bryant, were simple enough: his organization, which I shall call Big Enterprise, was suffering from an unduly high rate of project failure. I do not recall the exact number but offhand, it was around 70%.
+Yes, that's right: 7 out of every 10 projects that Big Enterprise undertook were over-budget, late or did not fulfil business expectations!
+Shocking, you say  yet entirely consistent with the figures presented by Lord Standish and others.
+Upon hearing the facts and figures, Holmes asked the obvious question about what Big Enterprise had done to figure out why the failure rate was so high.
+ "I was coming to that, " said Bryant,  "typically after every project we hold a post-mortem.  The PMO  (which, as you know,I manage)  requires this. As a result, we have a pretty comprehensive record of ‘things that went well' on our projects and things that didn't.  We analysed the data from failed projects and found that there were three main reasons for failure: lack of adequate user input, incomplete or changing user requirementsand inadequate executive support. "
+ " .but these aren't the root cause, " said Holmes.
+ "You're right, they aren't " said Bryant, somewhat surprised at Holmes' interjection.  "Indeed, we did an exhaustive analysis of each of the projects and even interviewed some of the key team members. We concluded that the root cause of the failures was inadequate governance on the PMO's  part, " said Bryant.
+ "I don't understand.  Hadn't you established governance processes prior to the problem? That is after all the raison d'etre of a PMO  "
+ "Yes we had, but our diagnosis implied those processes weren't working. They needed to be tightened up. "
+ "I see, " said Holmes shortly.  "I'll return to that in due course. Please do go on and tell me what you did to address the issue of poor or inadequate governance, as you put it. "
+ "Yes, so we put in place processes to address these problems. Specifically, we took the following actions. For the lack of user input, we recommended getting a sign-off from business managers as to how much time their people would commit to the project. For the second issue – incomplete or changing requirements – we recommended that in the short term, more attention be paid to initial requirement gathering, and that this be supported by a stricter change management regime. In the longer term, we recommended that the organization look into the possibility of implementing Agile approaches. For the third point, lack of executive support, we suggested that the problem be presented to the management board and CEO, requesting that they reinforce the importance of supporting project work to senior and middle management. "
+Done with his explanation, he looked at the two of us to check if we needed any clarification.  "Does this make sense? " he enquired, after a brief pause.
+Holmes shook his head,  "No Mr. Bryant the actions don't make sense at all.  When faced with problems, the kneejerk reaction is to resort to more control. I submit that your focus on control misled you. "
+ "Misled? What do you mean? "
+ "Well, it didn't work did it? Projects in Big Enterprise continue to fail, which is why we are having this meeting today.  The reason your prescription did not work is that you misdiagnosed the issue. The problem is not governance, but something deeper. "
+Bryant wore a thoughtful expression as he attempted to digest this.  "I do not understand, Mr. Holmes, " he said after a brief pause.  "Why don't you just tell me what the problem is and how can I fix it? Management is breathing down my neck and I have to do something about it soon. "
+ "To be honest, the diagnosis is obvious, and I am rather surprised you missed it, " said Holmes,  "I shall give you a hint: it is bigger, much bigger, than the PMO and its governance processes. "
+ "I'm lost, Mr. Holmes.  I have thought about it long enough but have not been able to come up with anything. You will have to tell me, " said Bryant with a tone that conveyed both irritation and desperation.
+ "It is elementary, Mr. Bryant, when one has eliminated the other causes, whatever remains, however improbable, must be the truth. Your prior actions have all but established that the problem is not the PMO, but something bigger. So let me ask the simple question: what is the PMO a part of? "
+ "That's obvious, " said Bryant,  "it's the organization, of course. "
+ "Exactly, Mr. Bryant: the problem lies in Big Enterprise's organisational structures, rules and norms. It's the entire system that's the problem, not the PMO per se. "
+Bryant looked at him dubiously.   "I do not understand how  the three points I made earlier – inadequate user involvement, changing requirements and lack executive sponsorship – are due to Big Enterprise's structures, rules and norms.  "
+ "It's obvious, " said Holmes, as he proceeded to elaborate how lack of input was a consequence of users having to juggle their involvement in projects with their regular responsibilities. Changes in scope and incomplete requirements were but a manifestation of  the fact that users' regular work pressures permitted only limited opportunities for interaction between users and the project team – and that it was impossible to gather all requirements or build trust through infrequent interactions between the two parties. And as for lack of executive sponsorship – that was simply a reflection of the fact that the executives could not stay focused on a small number of tasks because they had a number of things that competed for their attention and these often changed from day to day. This resulted in a reactive management style rather than a proactive or interactive one.  Each of these issues was an organizational problem that was well beyond the PMO.
+ "I see, " said Bryant, somewhat overwhelmed as he realized the magnitude of the problem,  " but this is so much bigger than me. How do I even begin to address it? "
+ "Well, you are the Head of the PMO, aren't you?  It behooves you to explain this to your management. "
+ "I can't do that! " exclaimed Bryant.  "I could lose my job for stating these sorts of things, Mr. Holmes – however true they may be. Moreover, I would need incontrovertible evidence facts demonstrating exactly how each failure was a consequence of organizational structures and norms, and was therefore out of the PMO's control. "
+Holmes chuckled sardonically.  "I don't think facts or ‘incontrovertible proof' will help you Mr. Bryant. Whatever you say would be refuted using specious arguments or simply laughed off.  In the end, I don't know what to tell you except that it is a matter for your conscience;  you must do as you see fit. "
+We left it at that; there wasn't much else to say. I felt sorry for Bryant. He had come to Holmes for a solution, only to find that solving the problem might involve unacceptable sacrifices.
+We bid him farewell, leaving him to ponder his difficult choices.
+—-
+Afterword
+Shortly after our meeting with him, I heard that Bryant had left Big Enterprise. I don't know what prompted his departure, but I can't help but wonder if our conversation and his subsequent actions had something to do with it.
+ and I think it is pretty clear why Lord Standish and others of his ilk still bemoan the unduly high rate of project failure.
+—
+ Notes
+1.	Sherlock Holmes aficionados may have noted that the foreword to this story bears some resemblance to the first paragraph of the Conan Doyle classic, The Adventure of the Engineer's Thumb.
+2.	See my post entitled Symptoms not causes, a systems perspective on project failure for a more detailed version of the argument outlined in this story.
+3.	For insight into the vexed question of governance, check out this post by Paul Culmsee and the book I co-authored with him.
