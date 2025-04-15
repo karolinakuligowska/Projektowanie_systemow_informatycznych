@@ -1,0 +1,90 @@
+Managing uncertainty – deciding what to do in the absence of reliable information – is a significant part of project management and many other managerial roles. When put this way, it is clear that managing uncertainty is primarily a decision-making problem. Indeed, as I will discuss shortly, the main difficulties associated with decision-making are related to specific types of uncertainties that we tend to overlook.
+
+Let's begin by looking at the standard approach to decision-making, which goes as follows:
+
+Define the decision problem.
+Identify options.
+Develop criteria for rating options.
+Evaluate options against criteria.
+Select the top rated option.
+As I have pointed out in this post, the above process is too simplistic for some of the complex, multifaceted decisions that we face in life and at work (switching jobs, buying a house or starting a business venture, for example). In such cases:
+
+It may be difficult to identify all options.
+It is often impossible to rate options meaningfully because of information asymmetry – we know more about some options than others. For example, when choosing whether or not to switch jobs, we know more about our current situation than the new one.
+Even when ratings are possible, different people will rate options differently – i.e. different people invariably have different preferences for a given outcome. This makes it difficult to reach a consensus.
+Regular readers of this blog will know that the points listed above are characteristics of wicked problems.  It is fair to say that in recent years, a general awareness of the ubiquity of wicked problems has led to an appreciation of the limits of classical decision theory. (That said,  it should be noted that academics have been aware of this for a long time: Horst Rittel 's classic paper on the dilemmas of planning, written in 1973, is a good example. And there are many others that predate it.)
+
+In this post  I look into some hard-to-tackle aspects of uncertainty by focusing on the aforementioned shortcomings of classical decision theory. My discussion draws on a paper by Richard Bradley and Mareile Drechsler.
+
+This article is organised as follows: I first present an overview of the standard approach to dealing with uncertainty and discuss its limitations. Following this, I elaborate on three types of uncertainty that are discussed in the paper.
+
+Background – the standard view of uncertainty
+
+The standard approach to tackling uncertainty was  articulated by Leonard Savage in his classic text, Foundations of Statistics. Savage 's approach can be summarized as follows:
+
+Figure out all possible states (outcomes)
+Enumerate actions that are possible
+Figure out the consequences of actions for all possible states.
+Attach a value (aka preference) to each consequence
+Select the course of action that maximizes value (based on an appropriately defined measure, making sure to factor in the likelihood of achieving the desired consequence)
+(Note the close parallels between this process and the standard approach to decision-making outlined earlier.)
+
+To keep things concrete it is useful to see how this process would work in a simple real-life example. Bradley and Drechsler quote the following example from Savage 's book that does just that:
+
+ consider  someone who is cooking an omelet and has already broken five good eggs into a bowl, but is uncertain whether the sixth egg is good or rotten. In deciding whether to break the sixth egg into the bowl containing the first five eggs, to break it into a separate saucer, or to throw it away, the only question this agent has to grapple with is whether the last egg is good or rotten, for she knows both what the consequence of breaking the egg is in each eventuality and how desirable each consequence is. And in general it would seem that for Savage once the agent has settled the question of how probable each state of the world is, she can determine what to do simply by averaging the utilities (Note: utility is basically a mathematical expression of preference or value) of each action 's consequences by the probabilities of the states of the world in which they are realised 
+
+In this example there are two states (egg is good, egg is rotten), three actions (break egg into bowl, break egg into separate saucer to check if it rotten, throw egg away without checking) and three consequences (spoil all eggs, save eggs in bowl and save all eggs if last egg is not rotten, save eggs in bowl and potentially waste last egg). The problem then boils down to figuring out our preferences for the options (in some quantitative way) and the probability of the two states.  At first sight, Savage's approach seems like a reasonable way to deal with uncertainty.  However, a closer look reveals major problems.
+
+Problems with the standard approach
+
+Unlike the omelet example, in real life situations it is often difficult to enumerate all possible states or foresee all consequences of an action. Further, even if states and consequences are known, we may not what value to attach to them – that is, we may not be able to determine our preferences for those consequences unambiguously. Even in those situations  where we can,  our preferences for may be subject to change  – witness the not uncommon situation where lottery winners end up wishing they 'd never won. The standard prescription works therefore works only in situations where all states, actions and consequences are known – i.e. tame situations, as opposed to wicked ones.
+
+Before going any further, I should mention that Savage was cognisant of the limitations of his approach. He pointed out that it works only in what he called small world situations–  i.e. situations in which it is possible to enumerate and evaluate all options.  As Bradley and Drechsler put it,
+
+Savage was well aware that not all decision problems could be represented in a small world decision matrix. In Savage 's words, you are in a small world if you can "look before you leap"; that is, it is feasible to enumerate all contingencies and you know what the consequences of actions are. You are in a grand world when you must "cross the bridge when you come to it", either because you are not sure what the possible states of the world, actions and/or consequences are 
+
+In the following three sections  I elaborate on the complications mentioned above emphasizing, once again, that many real life situations are prone to such complications.
+
+State space uncertainty
+
+The standard view of uncertainty assumes that all possible states are given as a part of the problem definition – as in the omelet example discussed earlier.  In real life, however, this is often not the case.
+
+Bradley and Drechsler identify two distinct cases of state space uncertainty. The first one is when we are unaware that we 're missing states and/or consequences. For example, organisations that embark on a restructuring program are so focused on the cost-related consequences that they may overlook factors such as loss of morale and/or loss of talent (and the consequent loss of productivity). The second, somewhat rarer, case is when we are aware that we might be missing something but we don 't quite know what it is. All one can do here, is make appropriate contingency plans based on  guesses regarding possible consequences.
+
+Figuring out possible states and consequences is largely a matter of scenario envisioning based on knowledge and practical experience. It stands to reason that this is best done by leveraging the collective experience and wisdom of people from diverse backgrounds. This is pretty much the rationale behind collective decision-making techniques such as Dialogue Mapping.
+
+Option uncertainty
+
+The standard approach to tackling uncertainty assumes that the connection between actions and consequences is well defined. This is often not the case, particularly for wicked problems.  For example, as I have discussed in this post, enterprise transformation programs with well-defined and articulated objectives often end up having a host of unintended consequences. At an even more basic level, in some situations it can be difficult to identify sensible options.
+
+Option uncertainty is a fairly common feature in real-life decisions. As Bradley and Drechsler put it:
+
+Option uncertainty is an endemic feature of decision making, for it is rarely the case that we can predict consequences of our actions in every detail (alternatively, be sure what our options are). And although in many decision situations, it won 't matter too much what the precise consequence of each action is, in some the details will matter very much.
+
+ and unfortunately, the cases in which the details matter are precisely those problems in which they are the hardest to figure out – i.e. in wicked problems.
+
+Preference uncertainty
+
+An implicit assumption in the standard approach is that once states and consequences are known, people will be able to figure out their relative preferences for these unambiguously. This assumption is incorrect, as there are at least two situations in which people will not be able to determine their preferences. Firstly, there may be  a lack of factual information about one or more of the states. Secondly, even when one is able to get the required facts, it is hard to figure out how we would value the consequences.
+
+A common example of the aforementioned situation is the job switch dilemma. In many (most?) cases in which one is debating whether or not to switch jobs, one lacks enough factual information about the new job – for example, the new boss ' temperament, the work environment etc. Further, even if one is able to get the required information, it is impossible to know how it would be to actually work there.  Most people would have struggled with this kind of uncertainty at some point in their lives. Bradley and Drechsler term this ethical uncertainty. I prefer the term preference uncertainty, as it has more to do with preferences than ethics.
+
+Some general remarks
+
+The first point to note is that the three types of uncertainty noted above map exactly on to the three shortcomings of classical decision theory discussed in the introduction.  This suggests a connection between the types of uncertainty and wicked problems. Indeed, most wicked problems are exemplars of one or more of the above uncertainty types.  For example, the paradigm-defining super-wicked problem of climate change displays all three types of uncertainty.
+
+The three types of uncertainty discussed above are overlooked by the standard approach to managing uncertainty.  This happens in a number of ways. Here are two common ones:
+
+The standard approach assumes that all uncertainties can somehow be incorporated into a single probability function describing all possible states and/or consequences. This is clearly false for state space and option uncertainty: it is impossible to define a sensible probability function when one is uncertain about the possible states and/or outcomes.
+The standard approach assumes that preferences for different consequences are known. This is clearly not true in the case of preference uncertainty and even for state space and option uncertainty for that matter.
+In their paper, Bradley and Dreschsler arrive at these three types of uncertainty from considerations different from the ones I have used above. Their approach, while more general, is considerably more involved. Nevertheless, I would recommend that readers who are interested should take a look at it because they cover a lot of things that I have glossed over or ignored altogether.
+
+Just as an example, they show how the aforementioned uncertainties can be reduced. There is a price to be paid, however: any reduction in uncertainty results in an increase in its severity. An example might help illustrate how this comes about. Consider a situation of state space uncertainty. One can reduce- or even, remove – this by defining a catch-all state (labelled, say, "all other outcomes"). It is easy to see that although one has formally reduced state space uncertainty to zero, one has increased the severity of the uncertainty because the catch-all state is but a reflection of our ignorance and our refusal to do anything about it!
+
+There are many more implications of the above. However, I 'll point out just one more that serves to illustrate the very practical implications of these uncertainties. In a post on the shortcomings of enterprise risk management, I pointed out that the notion of an organisation-wide risk appetite is problematic because it is impossible to capture the diversity of viewpoints through such a construct. Moreover,  rule or process based approaches to risk management tend to focus only on those uncertainties that can be quantified, or conversely they assume that all uncertainties can somehow be clumped into a single probability distribution as prescribed by the standard approach to managing uncertainty. The three types of uncertainty discussed above highlight the limitations of such an approach to enterprise risk.
+
+Conclusion
+
+The standard approach to managing uncertainty assumes that all possible states, actions and consequences are known or can be determined. In this post I have discussed why this is not always so.  In particular, it often happens that we do not know all possible outcomes (state space uncertainty), consequences (option uncertainty) and/or our preferences for consequences (preference or ethical uncertainty).
+
+As I was reading the paper, I felt the authors were articulating issues that I had often felt uneasy about but chose to overlook (suppress?).  Generalising from one 's own experience is always a fraught affair, but  I reckon we tend to deny these uncertainties because they are inconvenient – that is, they are difficult if not impossible to deal with within the procrustean framework of the standard approach.  What is needed as a corrective is a recognition that the pseudo-quantitative approach that is commonly used to manage uncertainty may not the panacea it is claimed to be. The first step towards doing this is to acknowledge the existence of the uncertainties that we (probably) overlook.

@@ -1,0 +1,21 @@
+
+1. Przeczytaj ze zrozumieniem Metodyki_Agile_Waterfall
+
+a) Otwórz swój plik "Notatki z zajęć", napisz "Zajęcia 9. Metodyki Agile i Waterfall", a następnie napisz odpowiedź na pytanie: 
+którą z tych dwóch metodyk wybierzesz do realizacji nowoczesnych projektów systemów informatycznych? - podaj 3 najważniejsze powody wyboru.
+// 1pkt
+
+
+2. Otwórz folder Przestrzen_wektorowa_Topic_modeling. 
+Zobacz rezultaty kodu w raporcie html, ukazującym zastosowanie modelowania tematów na tekstach z folderu textfolder2 - dyskusja na zajęciach. // 2pkt
+
+Dla chętnych: zobacz rozdział "6.4. Topic models" w artykule naukowym:
+Text Mining Methodologies with R: An Application to Central Bank Texts
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4533650
+
+
+3. Kod modelowania tematów (z folderu Przestrzen_wektorowa_Topic_modeling) wykonaj na tekstach z folderu textfolder3.
+Zapisz rezultat wykonanego kodu w formacie raportu html. // 1pkt
+
+
+
