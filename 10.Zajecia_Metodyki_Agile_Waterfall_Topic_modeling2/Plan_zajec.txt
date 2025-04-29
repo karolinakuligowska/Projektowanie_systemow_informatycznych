@@ -1,0 +1,47 @@
+
+
+1. Otwórz folder Przestrzen_wektorowa_Topic_modeling2
+Zobacz rezultaty kodu w raporcie html, ukazującym zastosowanie modelowania tematów na tekstach z pliku csv.
+Dlaczego częstość trzeciego, czwartego, piątego (itd.) słowa nie jest tak wysoka jak dwóch pierwszych słów?
+Który podział na tematy (tzn. liczba tematów) wydaje się być najlepszy?
+- dyskusja na zajęciach. // 2pkt
+
+
+2. Kod modelowania tematów:
+- Zobacz w pliku html output sekcji: 2. Zliczanie częstości słów
+- Dlaczego częstość trzeciego, czwartego, piątego (itd.) słowa nie jest tak wysoka jak dwóch pierwszych słów? => dokonaj w kodzie R zmian we fragmencie (obecnie zakomentowany - trzeba odkomentować):
+
+# usunięcie ewt. zbędnych nazw własnych
+# corpus <- tm_map(corpus, removeWords, c("rose", "roses", "kate", "kates", "iris", "tyler", "tylers", 
+#                                         "javi", "javis", "reed", "josh", "joshs", "elliot", "elliots", 
+#                                         "julian", "julians", "patrick", "patricks", "margot", "margots", "one", "however", "ladybug", 
+#                                         "emily", "emilys", "matt", "matts", "steve", "steves", "chuck", "chucks",
+#                                         "joel", "joels", "mckenna", "gabriel", "gabriels", "erin", "erins",
+#                                         "dane", "danes", "george", "georges", "marshall", "marshalls",
+#                                         "cliff", "cliffs", "sathyamurthys", "robert", "roberts", "elsa", "elsas", "laura", "lauras", "ray", "rays",
+#                                         "throw", "alex", "alexs", "angela", "angelas", "garrett", "garrets",
+#                                         "sam", "sams", "michael", "michaels", "soren", "sorens", "deepika", "sergey", "sergeys", "bullock", "bullocks",
+#                                         "felicity", "felicitys", "victoria", "victorias", "madeline", "madelines", "andrew", "andrews",
+#                                         "hendrix", "hendrixs", "powell", "glenn", "glenns"
+#                                         ))
+
+
+- Zapisz wprowadzone zmiany i zapisz rezultat wykonanego kodu w formacie raportu html. // 1pkt
+
+
+
+3. Przeczytaj ze zrozumieniem Metodyki_Agile_Waterfall_cz2.pdf
+
+a) Otwórz swój plik "Notatki z zajęć", napisz "Zajęcia 10. Metodyki Agile i Waterfall_cz2".
+Następnie krótko rozpisz tablicę Kanban dla prostego projektu dotyczącego Topic modelingu.
+Następnie zobacz możliwość rozpisania takiej tablicy Kanban wg szablonu w GitHubie: 
+- w tym celu kliknij "New project" na stronie https://github.com/projects
+// 1pkt
+
+
+
+
+
+
+
+
