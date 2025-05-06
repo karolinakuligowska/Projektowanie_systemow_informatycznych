@@ -1,0 +1,15 @@
+
+
+Sto ostatnich reviews dla LOT Polish Airlines ze strony:
+https://www.airlinequality.com/airline-reviews/lot-polish-airlines/
+
+
+Kod web scrapingu w Colab (python):
+https://github.com/karolinakuligowska/Projektowanie_systemow_informatycznych/blob/main/IPYNB/PSI_Zaj10_LOT_reviews_csv_scraping.ipynb
+
+
+Na podstawie kodu oryginalnego:
+https://github.com/Juhibhojani/Airline-Reviews-/tree/main
+https://github.com/Juhibhojani/Airline-Reviews-/blob/main/airline_review.py
+
+

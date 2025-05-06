@@ -1,0 +1,30 @@
+
+1. Otwórz folder Przestrzen_wektorowa_Asocjacje
+Zobacz rezultaty kodu w raporcie html, ukazującym wykrywanie asocjacji na tekstach z pliku csv.
+Jakie tematy sugerują najsilniejsze asocjacje?
+Czy pasują one do intuicji o zawartości tekstów?
+- dyskusja na zajęciach. // 2pkt
+
+
+2. Kod Przestrzen_wektorowa_Asocjacje
+- Wytypuj dwa inne słowa (terminy), które chcesz zbadać pod kątem asocjacji
+- Dla każdego słowa wykonaj wykres jak w kodzie (Wykres lizakowy i Wykres lizakowy z natężeniem)
+- Zapisz wprowadzone zmiany w kodzie i zapisz rezultat wykonanego kodu w formacie raportu html. // 1pkt
+
+
+
+3. Przeczytaj ze zrozumieniem Analiza_ryzyka_macierz_ryzyka.pdf
+
+a) Otwórz swój plik "Notatki z zajęć", napisz "Zajęcia 11. Analiza ryzyka i macierz ryzyka".
+Następnie odpowiedz na pytania:
+Wypisz jedno przykładowe ryzyko związane z projektowaniem systemu IT, które - Twoim zdaniem - jest najbardziej krytyczne dla powodzenia projektu.
+Następnie określ prawdopodobieństwo jego wystąpienia i potencjalny wpływ (skutek), a na tej podstawie przypisz mu poziom ryzyka zgodnie z przykładową macierzą ryzyka (3x3 lub 5x5).
+// 1pkt
+
+
+
+
+
+
+
+
