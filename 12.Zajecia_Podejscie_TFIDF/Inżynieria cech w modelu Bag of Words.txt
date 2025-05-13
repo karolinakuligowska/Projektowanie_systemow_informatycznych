@@ -1,0 +1,68 @@
+--------------------------------------------------------------------
+Text Mining podstawowy
+--------------------------------------------------------------------
+
+Przetwarzanie i oczyszczanie tekstu
+(Text Preprocessing and Text Cleaning)
+- wczytanie tekstu z odpowiednim kodowaniem (UTF-8)
+- normalizacja (ujednolicenie) wielkości liter (zamiana na małe litery = lowercase)
+- normalizacja (ujednolicenie) rozbieżnych kodowań znaków (apostrofy, cudzysłowy)
+- normalizacja (ujednolicenie) form skróconych (I'm, I've, don't) przez usunięcie lub rozwinięcie
+- normalizacja (ujednolicenie) różnych akcentów ("café" na "cafe") przez usunięcie akcentów
+- normalizacja (ujednolicenie) popularnych skrótów ("btw" na "by the way", "b4" na "before") przez rozwinięcie
+- usunięcie zbędnych ciągów znaków (adresy URL, tagi HTML)
+- usunięcie zbędnych znaków specjalnych (*, &, #, @, $)
+- usunięcie zbędnych białych znaków (spacja, tabulacja, znak przejścia do nowej linii "enter")
+- usunięcie cyfr i liczb
+- usunięcie interpunkcji
+- tokenizacja (podział tekstu na słowa = tokeny)
+- usunięcie stopwords (słów o małej wartości semantycznej, np. "the", "and")
+- usunięcie pustych elementów (rozważenie problemu brakujących/niekompletnych danych )
+- stemming lub lematyzacja (sprowadzenie słów do ich rdzenia/formy podstawowej)
+
+Zliczanie częstości słów
+(Word Frequency Count)
+
+Eksploracyjna analiza danych: wizualizacja częstości słów (tabela, wykres, chmura słów)
+(Exploratory Data Analysis, EDA)
+
+Inżynieria cech w modelu Bag of Words: reprezentacja tekstu jako zbioru słów i częstości słów ( = cechy)
+(Feature Engineering in BoW model)
+
+
+--------------------------------------------------------------------
+Text Mining zaawansowany
+--------------------------------------------------------------------
+
+Inżynieria cech w modelu Bag of Words: reprezentacja słów i dokumentów w przestrzeni wektorowej
+(Feature Engineering in vector-space BoW model)
+
+
+NIESEMANTYCZNA PRZESTRZEŃ WEKTOROWA
+- podejście surowych częstości słów: reprezentacja słów w przestrzeni wektorowej (częstość słowa = liczba wystąpień w dokumencie)
+(Raw Word Counts)
+
+- podejście TF-IDF: reprezentacja słów w przestrzeni wektorowej (waga słowa = znormalizowana częstość słowa w dokumencie oraz rzadkość słowa w korpusie dokumentów)
+(Term Frequency-Inverse Document Frequency)
+
+
+SEMANTYCZNA PRZESTRZEŃ WEKTOROWA
+- podejście osadzenia słów: reprezentacja słów jako wektorów w przestrzeni ciągłej i semantycznej - słowa o podobnym znaczeniu mają podobne wektory (np. Word2Vec, GloVe, FastText)
+(Word Embeddings)
+
+- podejście osadzenia zdań: reprezentacja całych zdań jako pojedynczych wektorów, które uwzględniają kontekst, składnię i znaczenie całości wypowiedzi (np. BERT, Sentence-BERT, Universal Sentence Encoder)
+(Sentence Embeddings)
+
+- podejście osadzenia dokumentów: reprezentacja całych dokumentów jako pojedynczych wektorów, które uwzględniają zawartość i kontekst dokumentu w całości (np. Doc2Vec, dokumentowe embeddingi BERT)
+(Document Embeddings)
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+
+1. Otwórz folder Przestrzen_wektorowa_TFIDF
+Zobacz rezultaty kodu w raporcie html, ukazującym podejście TFIDF na tekstach z pliku csv.
+Czy jest różnica w wynikach między "A. Macierz częstości TDM" oraz "B. Macierz częstości TDM z TF-IDF"?
+Jakie słowa w zbiorze dokumentów są "premiowane" przez podejście TFIDF?
+- dyskusja na zajęciach. // 2pkt
+
+
+2. Przeczytaj ze zrozumieniem TFIDF_opis_dzialania.pdf
+a) Otwórz swój plik "Notatki z zajęć", napisz "Zajęcia 12. Podejście TFIDF w algorytmach data science".
+Następnie odpowiedz na pytanie:
+W których poznanych algorytmach data science (analiza sentymentu - słowniki, klastrowanie k-means, topic modeling - metoda LDA, asocjacje - korelacja Pearsona) zastosowanie podejścia TF-IDF może poprawić jakość wyników? Z kolei w których algorytmach należy unikać TFIDF? - uzasadnij krótko swoją odpowiedź (możesz wspomóc się wyszukiwarką i/lub wiedzą chatGPT).
+// 1pkt
+
+
+3. Kod TFIDF_opis_dzialania_ilustracja.R
+- Przeanalizuj kod, który jest ilustracją do przykładu z pliku TFIDF_opis_dzialania.pdf
+- Zobacz, jakie mogą występować różnice w implementacji TFIDF
+- Wykonaj kod skryptu jako raport html // 1pkt
+
+
+
+
+
+
