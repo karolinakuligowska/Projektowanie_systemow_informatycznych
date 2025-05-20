@@ -1,0 +1,27 @@
+
+1. Otwórz folder Przestrzen_wektorowa_Klasyfikacja
+Zobacz rezultaty kodu w raporcie html, ukazującym model uczenia maszynowego nadzorowanego na tekstach z pliku csv.
+Przeczytaj ocenę wyników modelu z pliku Ocena_modelu_LOSOWY_STRATYFIKOWANY.pdf
+
+Pytania:
+Czy jest różnica w wynikach metryki Accuracy między "podział LOSOWY" oraz "podział STRATYFIKOWANY"?
+Jakie są inne metryki ważne dla oceny modelu klasyfikacji?
+Gdy Accuracy jest niskie, jak można spróbować polepszyć wyniki modelu? (pomysły)
+
+Przypomnij: Jakie są główne kategorie algorytmów uczenia maszynowego?
+- dyskusja na zajęciach. // 2pkt
+
+
+2. Przeczytaj ze zrozumieniem Macierz_pomylek_Metryki_klasyfiakcji.pptx
+a) Otwórz swój plik "Notatki z zajęć", napisz "Zajęcia 13. Klasyfikacja".
+Następnie odpowiedz na pytanie:
+Jakie są najważniejsze metryki dla oceny modelu klasyfikacji i /krótko/ jaka jest ich interpretacja?
+// 2pkt
+
+
+
+
+
+
+
+
