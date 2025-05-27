@@ -1,0 +1,48 @@
+
+1. Otwórz folder Przestrzen_wektorowa_Klasyfikacja2
+Zobacz rezultaty kodu w raporcie html, ukazującym model uczenia maszynowego nadzorowanego na tekstach z pliku csv.
+Przeczytaj ocenę wyników modelu z pliku Ocena_modelu_LOSOWY_STRATYFIKOWANY_stemming.pdf
+
+Pytania:
+Czy z użyciem stemmingu w corpusie jest różnica w wynikach metryki Accuracy między "podział LOSOWY" oraz "podział STRATYFIKOWANY"?
+Jak wypadają wartości innych metryk dla oceny obu modeli klasyfikacji?
+Jakie działania/zabiegi poprawiają wyniki działania modelu klasyfikacyjnego dla danych tekstowych?
+- dyskusja na zajęciach. // 2pkt
+
+Dodatkowe pytania:
+W bankach/instytucjach finansowych to regresja liniowa lub regresja logistyczna są podstawą tworzenia modeli w obszarach takich, jak:
+- ocena ryzyka kredytowego (credit scoring) - np. przewidywanie prawdopodobieństwa niespłacenia zobowiązania przez klienta na podstawie cech demograficznych, historii kredytowej i dochodów
+- detekcja oszustw (fraud detection) - np. wykrywanie podejrzanych transakcji poprzez modelowanie binarnego wyniku: oszustwo / brak oszustwa
+- prognozowanie zachowań klientów - np. analiza prawdopodobieństwa odejścia klienta (churn prediction)
+=> Dlaczego regresja jest podstawą, skoro istnieje dużo więcej algorytmów Uczenia Maszynowego? 
+=> Czym jest XAI?
+
+Dodatkowe pojęcia:
+- zgodność regulacyjna (compliance)
+- wyjaśnialność decyzji wobec klientów i regulatorów
+-  audytowalność modeli
+
+
+
+2. Przeczytaj ze zrozumieniem Macierz_pomylek_Metryki_klasyfiakcji.pptx
+a) Otwórz swój plik "Notatki z zajęć", napisz "Zajęcia 14. Klasyfikacja cd."
+
+Przykłady innych modeli dla klasyfikacji binarnej, które można oceniać tymi samymi metrykami:
+Support Vector Machines SVM (Metoda wektorów nośnych)
+Decision Tree (Drzewo decyzyjne)
+Random Forest (Las losowy, który łączy wiele drzew decyzyjnych)
+Logistic Regression (Regresja logistyczna)
+K-Nearest Neighbors KNN (k-najbliższych sąsiadów)
+Naive Bayes (Naiwny Bayesowski)
+
+Następnie zapisz w Notatkach odpowiedź na pytanie:
+Wybierz z powyższej listy dwa dowolne klasyfikatory (inne niż SVM), wyszukaj informacje na ich temat i krótko opisz: 1) Jak działa, 2) Dlaczego warto byłoby go przetestować w zadaniu klasyfikacji recenzji/opinii klientów.
+// 2pkt
+
+
+
+
+
+
+
+
