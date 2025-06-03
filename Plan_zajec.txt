@@ -1,0 +1,8 @@
+
+
+1. Sieci neuronowe - wprowadzenie.
+Książki do nauki zakresu sieci neuronowych.
+
+2. Architektury danych.
+
+3. Podstawy UML i różne diagramy.
